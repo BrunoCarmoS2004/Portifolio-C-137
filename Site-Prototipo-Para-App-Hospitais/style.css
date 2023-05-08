@@ -27,6 +27,11 @@ main{
     letter-spacing: 1px;
     font-size: 40px;
     text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.418) ;
+    text-decoration: underline;
+    display: flex;
+    justify-content:center ;
+    margin-bottom: 40px;
+   margin-top: 55px;
 }
 
 label{
@@ -38,31 +43,28 @@ input{
     background:none;
     border:none;
     border-bottom:black;
+    font-size: 20px;
 
 }
 
-.form-header{
-    display: flex;
-    justify-content:center ;
-}
 
 #input-geral{
     display: flex;
     flex-direction: column;
     align-items: center;
     border-bottom: 2px solid black;
-    width: 100%;
+    width: 70%;
     margin: 10px 0px 10px 0px;
     
 }
 
-.input-email{
-   
-    padding: 100px 0px 15px 0px ;
+#div-label{
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
-.input-passoword{
-    padding: 50px 0px 15px 0px ;  
+.icone{
+    font-size: 25px;
 }
 
 .buttom-entrar{
@@ -80,18 +82,42 @@ input{
     border-radius: 50px;
     outline: none;
     background-color: #0075FF ;
-    margin-top: 115px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.411);
+    margin-top: 70px;
+    margin-bottom: 30px;
+    pointer-events: ;
+}
+
+.btn-entrar:active{
+    background-color: #479dff;
+}
+
+.p-cadastrese{
+    letter-spacing: 1px;
+    font-size: 25px;
+    display: flex;
+
 }
 
 .btn-cadastrese{
     align-items: center;
     font-size: 20px;
-    width: 130px;
+    width: 207px;
     height: 26px;
     border: none;
     border-radius: 50px;
     outline: none;
-    background-color: #0075FF ;
+    background-color: #0016FF ;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.411);
+}
+
+.btn-cadastrese:active{
+    background-color: #4251fd;
+
+}
+
+img{
+    margin-top: 15px;
 }
 
 

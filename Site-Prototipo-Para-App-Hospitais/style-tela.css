@@ -45,23 +45,20 @@ input{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     border-bottom: 2px solid black;
+    color: white;
 
 
 }
 
 
 #input-geral{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
-   
     width: 70%;
     margin: 10px 0px 10px 0px;
     font-family: 'Bebas Neue', cursive;
     color: white;
-    transition: 1s;
-    
-    
 }
 
 #input-geral ~ p{

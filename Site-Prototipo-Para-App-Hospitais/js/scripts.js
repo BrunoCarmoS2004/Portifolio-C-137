@@ -1,5 +1,6 @@
 var btn = document.querySelector('.btn-entrar');
 var containers = document.querySelectorAll('#input-geral');
+var btn2 = document.querySelector('.btn-cadastrese')
 
 btn.addEventListener('click', function() {
   containers.forEach(function(container) {
@@ -9,3 +10,5 @@ btn.addEventListener('click', function() {
     } 
   });
 });
+
+btn2.addEventListener('click')

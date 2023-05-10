@@ -59,7 +59,9 @@ input{
     margin: 10px 0px 10px 0px;
     font-family: 'Bebas Neue', cursive;
     color: white;
+    
 }
+
 
 #input-geral ~ p{
     border: none;

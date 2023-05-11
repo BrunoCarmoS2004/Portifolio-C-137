@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleRegistro.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="pagina-registro">
+            <p id="titulo-cadastro">Cadastro</p>
+                <div class="div-conta"></div>
+                    <p id="p-conta">Conta</p>
+                    <form class="form-conta" action="">
+
+                        <label for="text">Nome Completo:</label>
+                        <input type="text">
+                        <br>
+                        <label for="text">Email:</label>
+                        <input type="email">
+                        <br>
+                        <label for="password">Senha:</label>
+                        <input type="password">
+                        <br>
+                        <label for="password">Repita sua senha:</label>
+                        <input type="password">
+                    </form>
+                    <div class="form-dados"></div>
+                        <p id="p-dados">Dados pessoais</p>
+                        <form class="form-dados"  action="">
+
+                            <label for="text">CPF:</label>
+                            <input type="number">
+                            <br>
+                            <label for="nascimento">Data de Nascimento:</label>
+                            <input type="date">
+                            <br>
+                            <label for="genero">Gênero:</label>
+                            <select id="genero" name="genero">
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                            <BR></BR>
+                            <label for="celular">Número de celular:</label>
+                            <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" placeholder="Digite o número de celular" required>
+
+                        </form>
+            
+
+
+        </div>
+    </main>
+</body>
+</html>

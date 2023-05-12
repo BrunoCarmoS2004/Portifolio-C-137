@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleRegistro.css">
+    <link rel="stylesheet" href="Css's/styleRegistro.css">
+    <script src="js/scripts-registro.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -59,9 +60,14 @@
                             <div class="div-label-concorda"><label id="label-concorda" for="">Ao cadastrar-se, você concorda com nossos <span>Termos de uso</span></label></div>
                         </form>
                         <div class="btn-pg-div-cadastro">
-                        <button >CADASTRAR</button>
+                        <button onclick="redirecionar()">CADASTRAR</button>
                     </div>
         </div>
     </main>
+    <script>
+        function redirecionar() {
+          window.location.href = "Protocolos.html";
+        }
+      </script>
 </body>
 </html>

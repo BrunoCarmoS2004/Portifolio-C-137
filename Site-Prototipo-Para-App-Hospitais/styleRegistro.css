@@ -69,6 +69,7 @@ select{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #label-concorda{
@@ -80,6 +81,7 @@ select{
 
 span{
     color: #000000;
+    text-decoration: underline;
 }
 
 .input-registro{
@@ -148,3 +150,8 @@ span{
 
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

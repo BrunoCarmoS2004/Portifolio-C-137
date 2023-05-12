@@ -11,4 +11,6 @@ btn.addEventListener('click', function() {
   });
 });
 
-btn2.addEventListener('click')
+function redirecionar() {
+  window.location.href = "Pagina-Registro.html";
+}

@@ -38,7 +38,7 @@
                 </div>
                 <p class="p-cadastrese" id="input-geral">NÃO TEM LOGIN? CLIQUE AQUI</p>
 
-                        <div id="input-geral"><button class="btn-cadastrese">cadastre-se</button></div> 
+                        <div id="input-geral"><button onclick="redirecionar()" class="btn-cadastrese">cadastre-se</button></div> 
                         
             </div>
            
@@ -47,5 +47,10 @@
     </main>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        function redirecionar() {
+          window.location.href = "Pagina-Registro.html";
+        }
+      </script>
 </body>
 </html>

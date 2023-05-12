@@ -89,7 +89,7 @@ input{
     border: none;
     border-radius: 8px;
     outline: none;
-    background-color: #0011C7 ;
+    background-image: linear-gradient(to bottom, #5234fd,#2500f5);
     box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.308);
     margin-top: 35px;
     
@@ -116,7 +116,7 @@ input{
     border: none;
     border-radius: 8px;
     outline: none;
-    background-color: #0016FF ;
+    background-image: linear-gradient(to bottom, #5234fd,#2500f5);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.411);
     font-family: 'Bebas Neue', cursive;
     color: white;
@@ -127,3 +127,8 @@ input{
     box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.411);
 
 }
+
+#sair{
+    display: block;
+}
+

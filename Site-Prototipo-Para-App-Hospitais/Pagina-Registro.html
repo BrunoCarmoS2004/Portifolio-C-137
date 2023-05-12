@@ -15,8 +15,8 @@
                     <p id="p-conta">Conta</p>
                     <form class="form-conta" action="">
 
-                        <p>Nome completo</p>
-                        <input type="text">
+                        <label for="name">Nome completo</label>
+                        <input type="name">
                         <br>
                         <label for="text">Email:</label>
                         <input type="email">
@@ -47,10 +47,11 @@
                             <label for="celular">Número de celular:</label>
                             <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" placeholder="Digite o número de celular" required>
                             <br>
-                            <input type="checkbox"> Ao cadastrar-se, você concorda com nosso <span>Termo de uso</span>
+
+                            <div><input type="checkbox"> Ao cadastrar-se, você concorda com nosso <span>Termo de uso</span></div>
                         </form>
                         <div class="btn-pg-div-cadastro"></div>
-                        <button id="btn-pg-cadastro">Cadastrar-se</button>
+                        <button id="btn-pg-cadastro">Cadastrar</button>
         </div>
     </main>
 </body>

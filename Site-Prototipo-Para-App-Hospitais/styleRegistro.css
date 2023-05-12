@@ -17,12 +17,13 @@ main{
     height: 800px;
     background-image: linear-gradient(to bottom, #000A7A, #37B7FF);
     font-family: 'Bebas Neue', cursive;
-    color: white;
+    
 }
 
 .pagina-registro{
-    
+    display: block;
     box-sizing: border-box;
+    
 }
 
 .div-conta{
@@ -30,28 +31,120 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
-form{
+.form-conta{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+#label-conta{
+    text-shadow: 0px 5px 4px #00000060;
+    color: rgb(214, 214, 214);
+} 
+
+.form-dados{
+    text-shadow: 0px 5px 4px #00000060;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+#label-dados{
+    color: rgb(206, 206, 206);
+} 
+
+select{
+    color: black;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+    outline: none
     
 }
 
-input{
+.div-label-concorda{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#label-concorda{
+    color: white;
+    
+}
+
+
+
+span{
+    color: #000000;
+}
+
+.input-registro{
     outline: none;
     background:none;
     border:none;
     border-bottom:black;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 100%;
     color: white;
+    padding-bottom: 10px;
 }
 
-p{
+.p-resgitro{
     display: flex;
     justify-content: center;
     font-size: 25px;
+    text-shadow: 0px 5px 4px #00000060;
+}
+
+::placeholder{
+    color:rgb(255, 255, 255)
+
+}
+
+#titulo-cadastro, #p-conta, #p-dados{
+    color: #ffffff;
 }
 
 #titulo-cadastro{
-    background-image: linear-gradient(to bottom, #FF6600,#FF944D);
+    align-items: center;
+    background-image: linear-gradient(to bottom, #5234fd,#2500f5);
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0);
+    height: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
+
+.btn-pg-div-cadastro{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-pg-div-cadastro button{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 25PX;
+    width: 250px;
+    height: 30px;
+    background-image: linear-gradient(to bottom, #5234fd,#2500f5);
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+.btn-pg-div-cadastro button:active{
+    
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.411);
+    color: rgb(224, 222, 222);
+
+}
+

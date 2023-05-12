@@ -10,48 +10,57 @@
 <body>
     <main>
         <div class="pagina-registro">
-            <p id="titulo-cadastro">Caadastro</p>
+            <p class="p-resgitro" id="titulo-cadastro">Cadastro</p>
                 <div class="div-conta"></div>
-                    <p id="p-conta">Conta</p>
+                    <p class="p-resgitro" id="p-conta">Conta</p>
                     <form class="form-conta" action="">
 
-                        <label for="name">Nome completo</label>
-                        <input type="name">
+                        <label id="label-conta" for="name">Nome completo</label>
                         <br>
-                        <label for="text">Email:</label>
-                        <input type="email">
+                        <input class="input-registro" type="name">
                         <br>
-                        <label for="password">Senha:</label>
-                        <input type="password">
+                        <label id="label-conta" for="text">Email:</label>
                         <br>
-                        <label for="password">Repita sua senha:</label>
-                        <input type="password">
+                        <input class="input-registro" type="email">
+                        <br>
+                        <label id="label-conta" for="password">Senha:</label>
+                        <br>
+                        <input class="input-registro" type="password">
+                        <br>
+                        <label id="label-conta" for="password">Repita sua senha:</label>
+                        <br>
+                        <input class="input-registro" type="password">
                     </form>
                     <div class="form-dados"></div>
-                        <p id="p-dados">Dados pessoais</p>
+                        <p class="p-resgitro" id="p-dados">Dados pessoais</p>
                         <form class="form-dados"  action="">
 
-                            <label for="text">CPF:</label>
-                            <input type="number">
+                            <label id="label-dados" for="text">CPF:</label>
                             <br>
-                            <label for="nascimento">Data de Nascimento:</label>
-                            <input type="date">
+                            <input class="input-registro" type="number">
                             <br>
-                            <label for="genero">Gênero:</label>
-                            <select id="genero" name="genero">
+                            <label id="label-dados" for="nascimento">Data de Nascimento:</label>
+                            <br>
+                            <input class="input-registro"  type="date">
+                            <br>
+                            <label id="label-dados" for="genero">Gênero:</label>
+                            <br>
+                            <select id="label-dados" name="genero">
                                 <option value="masculino">Masculino</option>
                                 <option value="feminino">Feminino</option>
                                 <option value="outro">Outro</option>
                             </select>
-                            <BR></BR>
-                            <label for="celular">Número de celular:</label>
-                            <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" placeholder="Digite o número de celular" required>
+                            <BR><br>
+                            <label id="label-dados" for="celular">Número de celular:</label>
+                            <br>
+                            <input class="input-registro" type="tel" name="celular" pattern="[0-9]{10}" placeholder="Digite o número de celular" required>
                             <br>
 
-                            <div><input type="checkbox"> Ao cadastrar-se, você concorda com nosso <span>Termo de uso</span></div>
+                            <div class="div-label-concorda"><label id="label-concorda" for="">Ao cadastrar-se, você concorda com nossos <span>Termos de uso</span></label></div>
                         </form>
-                        <div class="btn-pg-div-cadastro"></div>
-                        <button id="btn-pg-cadastro">Cadastrar</button>
+                        <div class="btn-pg-div-cadastro">
+                        <button >CADASTRAR</button>
+                    </div>
         </div>
     </main>
 </body>

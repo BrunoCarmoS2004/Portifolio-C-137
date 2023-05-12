@@ -18,7 +18,7 @@ main{
     border-radius: 10px 10px 10px 10px;
     width: 361px;
     height: 800px;
-    background: url(Imagens/APP\ tia\ tela\ padrão\ _ENTRAR_\ \ fundo.png);
+    background-image: linear-gradient(to bottom, #000A7A, #37B7FF);
 }
 
 

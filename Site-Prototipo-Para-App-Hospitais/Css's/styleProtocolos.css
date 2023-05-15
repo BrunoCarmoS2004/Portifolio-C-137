@@ -11,6 +11,14 @@ body{
     justify-content: center;
 }
 
+.div-todos{
+    display: block;
+}
+
+.div-all{
+    display: none;
+}
+
 main{
     border-radius: 10px 10px 10px 10px;
     width: 361px;
@@ -39,8 +47,12 @@ span{
     justify-content: center;
     align-items: center;
     width: 50%;
-    border-bottom: 2px solid coral;
+    border-bottom: 2px solid rgb(0, 0, 0);
     border-width: 100%;
+}
+
+#p-titulosAll:hover{
+    
 }
 
 #p-titulosFav{
@@ -53,9 +65,15 @@ span{
 }
 
 .p-Todos{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 40px 10px 10px;
     margin: 10px 10px 10px 10px;
     color: white;
     font-family: 'Roboto', sans-serif;
     border-bottom: 2px solid rgba(0, 0, 0, 0.856);
+}
+
+.div-p .icon{
+    position: relative;
+    top: 65px;
+    left: 325px;
 }

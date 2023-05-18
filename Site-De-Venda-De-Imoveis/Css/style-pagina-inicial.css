@@ -32,7 +32,7 @@ body{
 
 .div-header{
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     color: black;
     display:flex;
     align-items: center;
@@ -51,6 +51,13 @@ body{
 .div-h2-header > h2{
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
+    background-color: rgba(204, 204, 204, 0.397);
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
     
     
 }
@@ -60,25 +67,54 @@ body{
     right: 0px;
     padding-right: 25px;
     align-items: space-around;
-    font-size: 25px;
-    
+    font-size: 20px;   
 }
 
 .a-nav-header{
     color: black;
     text-decoration: none;
-    background-color: brown;
+    border-radius: 7px;
+    margin:0px 30px;
+}
+
+.a-nav-header:hover{
+    transition: 0.5s;
+    
+    background-color:#386e7586 ;
 }
 
 .div-subti-main{
     width: 100vw;
     height: 30vh;
+    border-radius: 0px 0px 8px 8px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    background: url(../Imagens/fundo1.jpg);
+    background-position: center ;
+    background: url(../Imagens/fundo12.jpg);
     font-family: 'Ysabeau', sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
 }
+
+.div-subti-main > h2{
+   
+    /*FAZER BORDA EM BAIXO COM ANIMAÇÃO DE IDA E VINDA*/
+
+    height: 250px;
+    width: 90vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.658);
+}
+
 
 
 

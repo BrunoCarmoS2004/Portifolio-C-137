@@ -1,0 +1,84 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,500&display=swap');
+
+:root {
+  --cor1:#76E8F7;
+  --cor2:#BFEFF5;
+  --cor3:#5B7275;
+  --cor4:#386E75;
+  --cor5:#97BDC2;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    
+}
+
+.div-img-header{
+    width: 150px;
+    height: 100px;
+}
+
+.div-header{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display:flex;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.div-h2-header{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-h2-header > h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    
+    
+}
+
+.div-nav-header{
+    position: absolute;
+    right: 0px;
+    padding-right: 25px;
+    align-items: space-around;
+    font-size: 25px;
+    
+}
+
+.a-nav-header{
+    color: black;
+    text-decoration: none;
+    background-color: brown;
+}
+
+.div-subti-main{
+    width: 100vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background: url(../Imagens/fundo1.jpg);
+    font-family: 'Ysabeau', sans-serif;
+}
+
+
+

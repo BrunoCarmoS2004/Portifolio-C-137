@@ -1,16 +1,14 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,500&display=swap');
 
 :root {
-  --cor1:#76E8F7;
-  --cor2:#BFEFF5;
-  --cor3:#5B7275;
-  --cor4:#386E75;
-  --cor5:#97BDC2;
+  --cor1:#59D9D9;
+  --cor2:#2EA684;
+  --cor3:#4EBF76;
+  --cor4:#7BD962;
+  --cor5:#0F9FA7;
+  
 }
 
 *{
@@ -20,19 +18,20 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #FBFFF0;
     height: 100%;
     
 }
 
 .div-img-header{
+
     width: 150px;
     height: 100px;
 }
 
 .div-header{
     position: relative;
-    background-color: #ffffff;
+    background-color: #FBFFF0;
     color: black;
     display:flex;
     align-items: center;
@@ -48,45 +47,37 @@ body{
     justify-content: center;
 }
 
-.div-h2-header > h2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 35px;
-    background-color: rgba(204, 204, 204, 0.397);
-    width: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
-    
-    
-}
 
 .div-nav-header{
     position: absolute;
     right: 0px;
-    padding-right: 25px;
+    padding-right: 40px;
     align-items: space-around;
     font-size: 20px;   
 }
 
 .a-nav-header{
-    color: black;
+    color: white;
     text-decoration: none;
     border-radius: 7px;
     margin:0px 30px;
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.493);
+    background-color:#4EBF76;
+    padding: 10px;
 }
 
 .a-nav-header:hover{
     transition: 0.5s;
-    
-    background-color:#386e7586 ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.493);
+    background-color:#43a164;
+    padding: 10px;
 }
 
 .div-subti-main{
     width: 100vw;
     height: 30vh;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 30px 30px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;

@@ -78,7 +78,7 @@ body{
 
 .div-imagem-fundo{
     background: url(../Imagens/fundo12.jpg);    
-    height: 45vh;
+    height: 47vh;
     position: relative;
 }
 
@@ -118,9 +118,70 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;    
-    background-color: rgba(255, 255, 255, 0.459);
+    padding: 50px;  
+    margin: 0px 0px;  
+    background-image: linear-gradient(to right, #00aaf8d8, #00C3D7d8, #60F868d8, #1DD14Ad8);
     border-radius: 35px;
+    
 }
+
+.div-label-input-main{
+    padding: 10px 30px;
+    background-color: #ffffffc0;
+    margin: 0px 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 50px;
+    border: 3px solid#FBFFF0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.637);
+}
+
+#id-pesquisa-tudo{
+    padding: 10px 30px;
+    background-color: #ffffffc0;
+    margin: 0px 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 50px;
+    border: 3px solid#FBFFF0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.637);
+}
+
+
+#id-pesquisa-tudo:hover{
+    background-color: #cfcfcfc0;
+}
+
+
+
+select{
+    background:none;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+
+.input-pesquisa::placeholder{
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.btn-encontrar{
+    padding: 10px 30px;
+    background-color: #00aaf8;
+    margin: 0px 10px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 50px;
+    border: 3px solid#FBFFF0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.637);
+}
+
+
+
+
+
 
 

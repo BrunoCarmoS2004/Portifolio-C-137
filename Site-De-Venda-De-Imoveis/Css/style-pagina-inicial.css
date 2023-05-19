@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 :root {
   --cor1:#59D9D9;
@@ -65,6 +67,7 @@ body{
     text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.493);
     background-color:#4EBF76;
     padding: 10px;
+    text-decoration: underline;
 }
 
 .a-nav-header:hover{
@@ -78,7 +81,7 @@ body{
 
 .div-imagem-fundo{
     background: url(../Imagens/fundo12.jpg);    
-    height: 47vh;
+    height: 50vh;
     position: relative;
 }
 
@@ -96,7 +99,7 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .div-subti-main > h2{
@@ -112,29 +115,33 @@ body{
     backdrop-filter: blur(3px);
     border-radius: 10px;
     text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.658);
+    border: 2px solid white;
 }
 
 .div-Pesquisa-imovel{
+
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;  
-    margin: 0px 0px;  
-    background-image: linear-gradient(to right, #00aaf8d8, #00C3D7d8, #60F868d8, #1DD14Ad8);
-    border-radius: 35px;
+    margin: 0px 40px;  
+    background-image: linear-gradient(to right, #00aaf879, #00C3D779, #60F86879, #1DD14A79);
     
+    border-radius: 35px;
 }
 
 .div-label-input-main{
+    
     padding: 10px 30px;
-    background-color: #ffffffc0;
+    background-color: #60f8687c;
     margin: 0px 10px;
     border: none;
     color: rgb(0, 0, 0);
     font-family: 'Roboto Mono', monospace;
-    border-radius: 50px;
-    border: 3px solid#FBFFF0;
+    border-radius: 10px;
+    border: 3px solid #000000e8;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.637);
+    font-size: 1.5;
 }
 
 #id-pesquisa-tudo{
@@ -144,9 +151,10 @@ body{
     border: none;
     color: rgb(0, 0, 0);
     font-family: 'Roboto Mono', monospace;
-    border-radius: 50px;
-    border: 3px solid#FBFFF0;
+    border-radius: 10px;
+    border: 3px solid#757575;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: 1s;
 }
 
 
@@ -175,8 +183,22 @@ select{
     color: rgb(0, 0, 0);
     font-family: 'Roboto Mono', monospace;
     border-radius: 50px;
-    border: 3px solid#FBFFF0;
+    border: 3px solid#0090d3;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.637);
+    font-size: 1.1em;
+}
+
+.div-vendas-titulos{
+    padding:10px 0px ;
+    margin: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    background-color: white;
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
 }
 
 

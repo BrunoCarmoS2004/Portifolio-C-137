@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@800&display=swap');
 :root {
   --cor1:#59D9D9;
   --cor2:#2EA684;
@@ -24,7 +24,7 @@ body{
     height: 100%;
     
 }
-
+/*Header, Nav e Logo*//*Header, Nav e Logo*/
 .div-img-header{
     width: 150px;
     height: 100px;
@@ -78,6 +78,8 @@ body{
     color: rgb(224, 224, 224);
 }
 
+/*Pesquisa e frase de efeito*//*Pesquisa e frase de efeito*/
+
 .div-imagem-fundo{
     background: url(../Imagens/fundo12.jpg);    
     height: 50vh;
@@ -85,7 +87,7 @@ body{
 }
 
 .div-subti-main{
-    width: 100vw;
+    width: 98vw;
     height: 30vh;
     border-radius: 0px 0px 15px 15px;
     background-repeat: no-repeat;
@@ -198,6 +200,42 @@ select{
     background-color: white;
     font-size: 1.5em;
     font-family: 'Kanit', sans-serif;
+}
+
+/*Ala das Vendas*//*Ala das Vendas*/
+
+.all-div-vendas{
+    display: grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    margin: 0px 30px;
+}
+
+.img-venda{
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.493);
+    padding-bottom: 10px;
+    text-align: center;
+    background-color:#b8b8b8c0;
+    border-radius: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.445);
+    text-decoration: underline;
+}
+
+.img-venda:hover{
+    transition: 1s;
+    transform: scaleZ();
+}
+
+.img-venda img{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.651);
+}
+
+.all-div-locacao{
+    display: grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    margin: 0px 30px;
 }
 
 

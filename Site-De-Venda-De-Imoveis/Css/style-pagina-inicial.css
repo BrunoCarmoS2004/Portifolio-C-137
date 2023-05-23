@@ -284,7 +284,38 @@ select{
     grid-template-columns:100%;
     grid-template-rows:50% 33% 33%;
     text-align: center;
+    
+    
 }
+
+.div-marketing2:hover{
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #00aaf8, #00C3D7, #60F868, #1DD14A);
+    border-image-slice: 1;
+    animation: colorido2 1s backwards infinite;
+}
+@keyframes colorido2{
+    0%, 25%{
+        border-image: linear-gradient(to right, #00aaf8, #00C3D7, #60F868, #1DD14A);
+        border-image-slice: 1;
+    
+    }
+    25%, 50%{
+        border-image: linear-gradient(to right, #1DD14A, #00aaf8, #00C3D7, #60F868);
+        border-image-slice: 1;
+    }
+    50%,75%{
+        border-image: linear-gradient(to right, #60F868, #1DD14A, #00aaf8, #00C3D7);
+        border-image-slice: 1;
+    }
+    75%{
+        border-image: linear-gradient(to right, #00C3D7, #60F868, #1DD14A, #00aaf8);  
+        border-image-slice: 1;
+    }
+
+}
+
 
 .div-marketing-icone{
     text-align: center;
@@ -373,8 +404,6 @@ select{
     font-size: 30px;
     color: rgb(24, 24, 24);
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.445);
-    
-  
     padding-top: 10px;
     border-radius:10px 0px 0px 50px;
 }
@@ -396,7 +425,15 @@ select{
 .footer-textos-todos p{
     font-family: 'Open Sans', sans-serif;
     padding-top:10px;
+    text-decoration: underline;
+    cursor: pointer;
 }
+
+.footer-textos-todos p:hover{
+    color: rgb(214, 214, 214);
+    
+}
+
 
 
 

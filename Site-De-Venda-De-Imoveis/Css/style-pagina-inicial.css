@@ -58,7 +58,8 @@ body{
     right: 0px;
     padding-right: 40px;
     align-items: space-around;
-    font-size: 17px;   
+    font-size: 17px; 
+    transition: 0.5s;  
 }
 
 .a-nav-header{
@@ -69,6 +70,7 @@ body{
     border: 1px solid black;
     text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.493);
     padding: 10px;
+    
 }
 
 .a-nav-header:hover{

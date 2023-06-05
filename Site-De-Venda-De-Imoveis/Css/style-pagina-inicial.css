@@ -464,20 +464,10 @@ select{
     }
 }
     @media(max-width:950px){
-        .div-nav-header{
-            display: none;
+        .a-nav-header{
+            font-size: 15px;
         }
-    
-        span{
-            width: 100%;
-            
-        }
-        #hamburger{
-            display: flex;
-            justify-content: flex-end;
-            position: relative;
-            right: 50px;
-        }
+
     }
     
 

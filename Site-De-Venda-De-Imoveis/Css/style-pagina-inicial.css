@@ -184,6 +184,7 @@ select{
     border: none;
     outline: none;
     font-size: medium;
+    
 }
 
 .input-pesquisa::placeholder{
@@ -439,9 +440,46 @@ select{
     
 }
 
-
-@media max-width {
-    
+#hamburger{
+    display: none;
 }
+
+@media(max-width:1050px){
+    .div-Pesquisa-imovel{
+        font-size: 13px;
+        display: grid;
+        align-items: center;
+        grid-template-columns:33% 33% 33% ;
+        grid-template-rows: 33% 33% 33%;
+        height: 15%;
+        
+    }
+    .btn-encontrar{
+        margin-top: 100px;
+        grid-row-start: 2;
+        grid-column-end:3;
+    }
+    .div-filtro-btn{
+      display: none;
+    }
+}
+    @media(max-width:950px){
+        .div-nav-header{
+            display: none;
+        }
+    
+        span{
+            width: 100%;
+            
+        }
+        #hamburger{
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            right: 50px;
+        }
+    }
+    
+
 
 

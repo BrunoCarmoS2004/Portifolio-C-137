@@ -440,7 +440,11 @@ select{
     
 }
 
-#hamburger{
+.menu-mobile-icon{
+    display: none;
+}
+
+.menu-mobile{
     display: none;
 }
 
@@ -465,9 +469,15 @@ select{
 }
     @media(max-width:950px){
         .a-nav-header{
-            font-size: 15px;
+            display: none;
         }
 
+        .menu-mobile-icon{
+            display: block;
+            cursor: pointer;
+        }
+        
+        
     }
     
 
